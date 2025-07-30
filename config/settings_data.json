@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -17,27 +26,20 @@
             "type": "announcement",
             "settings": {
               "text": "50% OFF For July 4th",
-              "color_scheme": "background-1",
-              "link": "shopify:\/\/collections\/adidas"
+              "announcement_text_color": "#ffffff",
+              "background_color": "#605e7d",
+              "link": "shopify://collections/adidas"
             }
           }
         },
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
-        "settings": {
-          "color_scheme": "background-1",
-          "logo_width": 100,
-          "logo_position": "middle-left",
-          "menu": "main-menu",
-          "show_line_separator": true,
-          "enable_sticky_header": true
-        }
+        "settings": {}
       },
       "footer": {
         "type": "footer",
@@ -53,7 +55,7 @@
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
             }
           }
         },
@@ -72,9 +74,14 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": [],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Default": {
@@ -101,8 +108,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -122,13 +128,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
